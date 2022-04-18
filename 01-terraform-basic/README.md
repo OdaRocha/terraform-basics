@@ -15,3 +15,8 @@ Commands For EC2 Instance:
 - terraform apply -var-file="prod.tfvars" -auto-approve -- create instances using prod env with auto aprove
 - terraform destroy -var-file="prod.tfvars" -auto-approve -- delete instances using prod env with auto aprove
 - Important: Precedence definition used by terraform -> https://www.terraform.io/language/values/variables#variable-definition-precedence
+
+Commands For Interpolation
+- terraform plan -- will output some values like
+   ![plot](images/plan-2.png)
+- terraform apply -auto-approve -- will create S3 Bucket with an Object (ips.json).
