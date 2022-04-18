@@ -20,3 +20,6 @@ Commands For Interpolation
 - terraform plan -- will output some values like
    ![plot](images/plan-2.png)
 - terraform apply -auto-approve -- will create S3 Bucket with an Object (ips.json).
+- Doc about Interpolation Syntax https://www.terraform.io/language/configuration-0-11/interpolation
+- Doc about Local Variables https://www.terraform.io/language/values/locals
+- Doc about Output Values https://www.terraform.io/language/values/outputs
